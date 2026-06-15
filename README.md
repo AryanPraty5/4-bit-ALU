@@ -4,10 +4,13 @@ A structural and heirarchal implementation of 4-bit ALU in verilog,
     simulated and verified using AMD Xilinx Vivado
 
 ## Operations Included:
- * Addition       (OPcode - 00) : Implemented using a 4-bit Ripple Carry Adder
- * Subtraction    (OPcode - 01) : Implemented using a subtractor with FA (performs A + 2's complement(B) + 1)
- * Multiplication (OPcode - 10) : Implemented by gate-level behaviour and using HA's and FA's
- * Division       (OPcode - 11) : Implemented by Behavourial description of Divisor Operator (" / ")
+
+| Operation | OPcode | Implementation Details |
+| :--- | :---: | :--- |
+| **Addition** | `2'b00` | Implemented using a 4-bit Ripple Carry Adder |
+| **Subtraction** | `2'b01` | Implemented using a subtractor with FA (performs $A + \sim B + 1$) |
+| **Multiplication** | `2'b10` | Implemented by gate-level structure using HAs and FAs |
+| **Division** | `2'b11` | Implemented by Behavioral description of Division Operator (`/`) |
 
 ## Verifications and Simulations:
 
