@@ -13,18 +13,18 @@ A structural and heirarchal implementation of 4-bit ALU in verilog,
 
 * Multiplier:-
     Schematic:
-    ![Multiplier Schematic](multiplier_schematic.png)    
+    ![Multiplier Schematic](assets/multiplier_schematic.png)    
     Block Diagram:
-    ![Multiplier Block Diagram](multiplier_block_diagram.jpeg)   
+    ![Multiplier Block Diagram](assets/multiplier_block_diagram.jpeg)   
     Simulation:
-    ![Multiplier Simulation Waveform](simulation_results_multiplier.png)
+    ![Multiplier Simulation Waveform](assets/simulation_results_multiplier.png)
 
 
 * Full Model:-
     Schematic:
-    ![Full Model Schematic](fullmodel_schematic.png)    
+    ![Full Model Schematic](assets/fullmodel_schematic.png)    
     Simulation:
-    ![Full Model Simulation Waveform](simulation_result_fullmodel.png)
+    ![Full Model Simulation Waveform](assets/simulation_result_fullmodel.png)
 
 ## Specifications
 
